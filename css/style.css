@@ -1,0 +1,172 @@
+/*generale*/
+body,
+html,
+head,
+header,
+section,
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #535e78;
+    background-color: #e5eef6;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.contour {
+    border: 1px solid red;
+}
+nav > ul > li > a{
+    color:#eee;
+}
+a{
+    color:#1f0faf;
+}
+a:link, a:visited {
+    text-decoration: none
+}
+nav > ul > li > a:hover{
+    cursor: pointer;
+    color: #ddd;
+}
+h1{
+    font-size: 3em;
+    font-weight: 900;
+}
+h2{
+    font-size: 2em;
+    font-weight: 600;
+
+}
+.first{
+    font-weight: bold;
+}
+/*header*/
+
+body > header {
+    color: #eee;
+    margin: -35px 0 0 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    min-height: 120px;
+    background-color: #3c639a;
+}
+
+header > section {
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+header > section > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 23px 0;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+header > section > div > h1 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+    display: block;
+}
+
+header > section > div > p {
+    min-width: 200px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 780px){
+    header > section{ 
+        margin: 0 20px;
+    }
+    .content, .projet { 
+    margin: 20px 20px!important;
+    }
+    header > section > div { 
+        justify-content: center;
+    }
+}
+/*navigation*/
+nav {
+}
+
+nav > ul {
+    padding: 0;
+    list-style: none;
+    color: #eee;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav > ul > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav > ul > li > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav > ul > li > a > i {
+    margin: 0 auto;
+}
+@media only screen and (max-width: 595px){
+    nav > ul > li > a > p {
+        display: none;
+    }
+}
+/*fin header*/
+/*main*/
+
+body > section {
+    max-width: 740px;
+    margin: 20px auto;
+}
+
+.content > article { 
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+article { 
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+article > header{
+    background-color: #eee;
+    width: 100%;
+    max-width: 740px!important;
+    margin-bottom: 15px;
+}
+article > header > h2{
+    padding: 10px;
+}
+div.image{
+    display: flex;
+    flex-wrap: nowrap;
+}
+div.image > p {
+    margin-left: 20px;
+}
+div.image > img { 
+    width: 200px;
+    height: 100%;
+}
+div.contenu{
+    padding: 0 20px;
+}
+
+.projet{
+    margin: 20px 0;
+}
