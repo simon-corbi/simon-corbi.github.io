@@ -55,8 +55,9 @@ body > header {
     background-color: #3c639a;
 }
 
+/* defaut :  max-width: 740px;*/
 header > section {
-    max-width: 740px;
+    max-width: 816px;
     margin: 0 auto;
 }
 
