@@ -10,6 +10,9 @@ h2 {
     margin: 0;
 }
 
+
+/*    color: #535e78;
+    background-color: #e5eef6;*/
 body {
     color: #535e78;
     background-color: #e5eef6;
@@ -44,7 +47,7 @@ h2{
 .first{
     font-weight: bold;
 }
-/*header*/
+/*header  background-color: #3c639a;*/
 
 body > header {
     color: #eee;
@@ -52,7 +55,7 @@ body > header {
     padding-top: 40px;
     padding-bottom: 20px;
     min-height: 120px;
-    background-color: #3c639a;
+    background-color: #091D34;
 }
 
 /* defaut :  max-width: 740px;*/
