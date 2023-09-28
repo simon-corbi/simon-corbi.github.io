@@ -131,7 +131,7 @@ nav > ul > li > a > i {
 /*main*/
 /* defaut :  max-width: 740px;*/
 body > section {
-    max-width: 848x;
+    max-width: 848px;
     margin: 20px auto;
 }
 
@@ -139,7 +139,6 @@ body > section {
     background-color: #fff;
     padding: 10px 20px;
     border-radius: 10px;
-    
 }
 
 article { 
