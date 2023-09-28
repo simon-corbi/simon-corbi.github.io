@@ -60,7 +60,7 @@ body > header {
 
 /* defaut :  max-width: 740px;*/
 header > section {
-    max-width: 916px;
+    max-width: 932px;
     margin: 0 auto;
 }
 
@@ -76,7 +76,7 @@ header > section > div {
 header > section > div > h1 {
     text-align: center;
     font-size: 4em;
-    font-weight: 900;
+    font-weight: 912;
     display: block;
 }
 
@@ -131,7 +131,7 @@ nav > ul > li > a > i {
 /*main*/
 /* defaut :  max-width: 740px;*/
 body > section {
-    max-width: 916px;
+    max-width: 932px;
     margin: 20px auto;
 }
 
